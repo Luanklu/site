@@ -66,6 +66,10 @@ body{
 
 }
 
+.abas-texto{
+    background-color: var(--texto-fundo);
+}
+
 @media screen and (min-with:768px){
     .botoes{
         display: flex;
