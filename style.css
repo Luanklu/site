@@ -72,7 +72,25 @@ body{
 .aba-conteudo.ativo{
     display:block;
 
-.aba-conteudo.ativo
+.aba-conteudo.ativo{
+    display: none;
+}
+
+.aba-conteudo.titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo.titulo-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
+
 
 @media screen and (min-with:768px){
     .botoes{
