@@ -88,8 +88,16 @@ body{
 }
 .contador{
     display: flex;
+    justify-content: center;
+}
+.contador-digitor{
+    padding: 0 16px;
+    text-align: center;
 }
 
+.contador-digito-numero{
+    font-size: 80px;
+}
 
 @media screen and (min-with:768px){
     .botoes{
